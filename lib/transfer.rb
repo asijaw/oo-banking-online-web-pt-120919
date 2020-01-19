@@ -2,6 +2,6 @@ class Transfer
   attr_accessor :transfer, :bank_account
   
   def initialize
-    @transfer = "transfer"
+    @transfer = "pending"
   end 
 end
