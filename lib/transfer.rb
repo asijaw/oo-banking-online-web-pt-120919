@@ -9,6 +9,6 @@ class Transfer
   end 
   
   def valid?
-    self.bank_account.valid?
+    self.Bank_account.valid?
   end
 end
